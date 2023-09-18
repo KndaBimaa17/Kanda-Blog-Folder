@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -9,21 +12,28 @@
 }
 
 body {
-  font-family: "popins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
   max-width: 100%;
 }
 
 p,
 span {
-  color: #999;
+  color: #616161;
 }
 
 hr {
   border-top-color: #ccc;
   margin: 0;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5
+{
+  font-family: 'Montserrat', sans-serif;
+}
 .form-control::-webkit-input-placeholder {
   color: #999;
 }
@@ -60,7 +70,7 @@ hr {
 }
 
 .tm-main {
-  margin-left: 26%;
+  margin-left: 16%;
   padding: 20px 25px;
 }
 
@@ -118,6 +128,8 @@ hr {
   position: absolute;
   z-index: -1000;
 }
+
+
 
 .tm-nav-link i {
   margin-right: 37px;
